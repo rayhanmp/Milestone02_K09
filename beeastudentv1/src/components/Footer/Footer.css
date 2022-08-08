@@ -1,0 +1,16 @@
+.footer{
+    background-color: linear-gradient(90deg, #004DA9 100%, #2A7CCE 100%);
+    display: flex;
+    align-items: center;
+}
+.footer-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo-2{
+    position: absolute;
+    width: 298px;
+    height: 115x;
+    filter: drop-shadow(0px 4px 10px rgba(113, 142, 228, 0.4));
+}
