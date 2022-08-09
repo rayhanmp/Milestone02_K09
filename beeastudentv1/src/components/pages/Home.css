@@ -1,23 +1,20 @@
 .home-container {
-    background-color: linear-gradient(90deg, #142B6F 16.85%, rgba(217, 217, 217, 0) 100%);
-    width:1440px;
-    height: 1024px;
+    width:100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0, 0.2);
     object-fit: contain;
 }
 .home-container-2{
-    background: linear-gradient(180deg, #142B6F 16.85%, rgba(217, 217, 217, 0) 100%);
-   
+    background-image: linear-gradient(180deg, #142B6F 16.85%, rgba(217, 217, 217, 0) 100%);
 }
-
 .home-image{
-    background: linear-gradient(180deg, #142B6F 16.85%, rgba(217, 217, 217, 0) 100%);
-    width: 1440px;
-    height: 1024px;
+    background-image: linear-gradient(180deg, #142B6F 16.85%, rgba(217, 217, 217, 0) 100%);
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
 }
 
 .home-container-text{

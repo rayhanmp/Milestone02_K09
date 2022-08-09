@@ -3,7 +3,7 @@
 Aplikasi untuk mencari lowongan beasiswa <3
 
 ## Oleh:
-### Kelompok 9 \
+### Kelompok 9 
 Ken Azizan(16521013) \
 Hanif Muhammad Zhafran(16521066) \
 I Dewa Made Manu Pradnyana(16521186) \
@@ -22,7 +22,7 @@ Nurshafa Qanita(16521520)
 1. Pastikan NodeJS sudah terinstall
 2. Download satu folder `beeastudentv1`
 3. Buka aplikasi `Visual Studio Code` atau code editor lainnya
-4. Buat terminal baru dari folder `beeastudentv1` di download
+4. Buat terminal baru dari folder `beeastudentv1` di tempat folder kalian mendownload
 5. Ketik `cd beeastudentv1` lalu klik enter
 6. Ketika `npm start` dan web app akan terbuka pada local host komputer masing-masing
 
