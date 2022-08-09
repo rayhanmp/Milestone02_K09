@@ -4,19 +4,19 @@ Aplikasi untuk mencari lowongan beasiswa <3
 
 ## Oleh:
 Kelompok 9
-Ken Azizan(16521013)
-Hanif Muhammad Zhafran(16521066)
-I Dewa Made Manu Pradnyana(16521186)
-Kenneth Dave Bahan(16521227)
-Dhanika Novlisariyant(16521257)
-Febryan Arota Hia(16521278)
-Nadine Aliya Putri(16521289)
-Muhammad Rifko Favian(16521297)
-Rayhan Maheswara Pramanda(16521307)
-Go Dillon Audris(16521384)
-Muhammad A. Bismaramadhan(16521499)
-Sri Laksmi Purwoningtyas(16521518)
-Nurshafa Qanita(16521520)
+Ken Azizan(16521013) \
+Hanif Muhammad Zhafran(16521066) \
+I Dewa Made Manu Pradnyana(16521186) \
+Kenneth Dave Bahan(16521227) \
+Dhanika Novlisariyant(16521257) \
+Febryan Arota Hia(16521278) \
+Nadine Aliya Putri(16521289) \
+Muhammad Rifko Favian(16521297) \
+Rayhan Maheswara Pramanda(16521307) \
+Go Dillon Audris(16521384) \
+Muhammad A. Bismaramadhan(16521499) \
+Sri Laksmi Purwoningtyas(16521518) \
+Nurshafa Qanita(16521520) \
 
 ## Cara menjalankan aplikasi
 1. Pastikan NodeJS sudah terinstall
