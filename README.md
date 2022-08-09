@@ -3,7 +3,7 @@
 Aplikasi untuk mencari lowongan beasiswa <3
 
 ## Oleh:
-Kelompok 9
+### Kelompok 9 \
 Ken Azizan(16521013) \
 Hanif Muhammad Zhafran(16521066) \
 I Dewa Made Manu Pradnyana(16521186) \
@@ -16,7 +16,7 @@ Rayhan Maheswara Pramanda(16521307) \
 Go Dillon Audris(16521384) \
 Muhammad A. Bismaramadhan(16521499) \
 Sri Laksmi Purwoningtyas(16521518) \
-Nurshafa Qanita(16521520) \
+Nurshafa Qanita(16521520)
 
 ## Cara menjalankan aplikasi
 1. Pastikan NodeJS sudah terinstall
