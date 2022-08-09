@@ -1,31 +1,35 @@
 import React from 'react'
 import './Footer.css'
+
 function Footer() {
   return (
-    <footer>
-        <div className="footer-container">
+    <div className='footer'>
+        <div className='footer-container'>
             <div className='footer-logo'>
-                <img src="images/logo.png" className="footer-logo-2"></img>
-                <p>Bee A Student is Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Ut nulla elementum
+            <p>Bee A Student is Lorem ipsum dolor sit amet,<br></br>
+                    consectetur adipiscing elit. Ut nulla elementum<br></br>
                     egetduis convallis nulla in porta eget.
                     Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Ut nulla elementum eget
                     duis convallis nulla in porta eget. </p>
             </div>
-            <div className='footer-contact-us'>
+            <div className='footer-contactus'>
                 <h2>Contact Us</h2>
-                <p>Jl. Ganesa No.10, Lb. Siliwangi, Kecamatan Coblong, Kota Bandung, Jawa Barat 40132</p>
-                <br></br>
-                <p>beeasiswa@gmail.com</p>
+                <div className='footer-contactus-text'>
+                    <p>
+                        Jl. Ganesa No.10, Lb. Siliwangi, Kecamatan<br></br>
+                        Coblong, Kota Bandung, Jawa Barat 40132
+                    </p>
+                    <p>
+                        beeasiswa@gmail.com
+                    </p>
+                </div>
             </div>
             <div className='footer-socmed'>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
+
             </div>
         </div>
-    </footer>
+    </div>
   )
 }
 
