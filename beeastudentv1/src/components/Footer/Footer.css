@@ -21,18 +21,18 @@
 
 .footer-aboutus{
     position: absolute;
-left: 3.4%;
-right: 61.83%;
-top: 52.26%;
-bottom: 18.06%;
+    left: 3.4%;
+    right: 61.83%;
+    top: 52.26%;
+    bottom: 18.06%;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .footer-contactus{
     position: absolute;
@@ -44,7 +44,7 @@ color: #FFFFFF;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
 
     color: #F7F7F7;
@@ -63,5 +63,35 @@ color: #FFFFFF;
 }
 
 .footer-socmed{
+    position: absolute;
+    left: 80%;
+    top: 18.06%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+
     color: #fff;
+
+}
+
+.footer-linked-in{
+    position: relative;
+    left: 0%;
+}
+
+.footer-twitter{
+    position: relative;
+    left: 20%;
+}
+
+.footer-instagram{
+    position: relative;
+    left: 40%;
+}
+
+a:link, a:visited{
+    color: white;
 }
