@@ -1,0 +1,97 @@
+.footer{
+    background: linear-gradient(180deg, #004DA9 0%, #2A7CCE 100%);
+    position: absolute;
+    width:100%;
+    height:319px;
+    display: flex;
+    justify-content: center;
+    position:sticky;
+}
+
+.footer-img{
+    position: absolute;
+    left: 3.4%;
+    right: 75.92%;
+    top: 7.74%;
+    bottom: 55.16%;
+    width: 298px;
+    height:115px;
+    filter: drop-shadow(0px 4px 10px rgba(113, 142, 228, 0.4));
+}
+
+.footer-aboutus{
+    position: absolute;
+    left: 3.4%;
+    right: 61.83%;
+    top: 52.26%;
+    bottom: 18.06%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+.footer-contactus{
+    position: absolute;
+    left: 44.97%;
+    right: 33.52%;
+    top: 18.06%;
+    bottom: 67.74%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #F7F7F7;
+}
+.footer-contactus-text{
+    position: absolute;
+    top: 90%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F7F7F7;
+}
+
+.footer-socmed{
+    position: absolute;
+    left: 80%;
+    top: 18.06%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+
+    color: #fff;
+
+}
+
+.footer-linked-in{
+    position: relative;
+    left: 0%;
+}
+
+.footer-twitter{
+    position: relative;
+    left: 20%;
+}
+
+.footer-instagram{
+    position: relative;
+    left: 40%;
+}
+
+a:link, a:visited{
+    color: white;
+}

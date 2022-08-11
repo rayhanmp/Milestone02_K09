@@ -1,0 +1,174 @@
+.signup-container{
+    background: #004DA9;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: in-line;
+}
+
+.image-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.image-signup{
+    left: 0px;
+    top: 80px;
+}
+
+.signup-rectangle{
+    display: inline-block;
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    left: 250px;
+    top: 96px;
+    background: linear-gradient(182.81deg, #F9841A -11.96%, #FEC619 69.52%);
+    box-shadow: 0px 4px 10px rgba(247, 247, 247, 0.5);
+    border-radius: 36px;
+    object-fit: contain;
+    display: block;
+}
+
+.signup-logo{
+    position: absolute;
+    width: 165px;
+    height: 65px;
+    left: 355px;
+    top: 10px;
+}
+.signup-form{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.signup-button{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 300px;
+    top: 470px;
+
+    background: #F2831E;
+    box-shadow: 0px 4px 10px #F07300;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.to-login{
+    position: absolute;
+    height: 19px;
+    left: 600px;
+    top: 10px;
+    color: #FFFFFF;
+
+}
+
+.line{
+    color: #142B6F;
+}
+
+input{
+    display:flex;
+    flex-direction:column;  }
+
+.form-label-fullname{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: -70px;
+    left:-45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+.form-label-email{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: 5px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.form-label-username{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: 80px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.form-label-password{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top:155px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+.form-label-password2{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: 230px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
