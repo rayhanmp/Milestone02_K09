@@ -1,0 +1,163 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(247, 247, 247, 1);
+}
+
+.TitleWrapper {
+  width: 100%;
+  height: 246px;
+  top: 0px;  
+  background: linear-gradient(180deg, #2A7CCE 32.29%, #004DA9 100%);
+  box-shadow: 0px 12px 29px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 146px 146px; 
+}
+
+.TitleWrapper > h1 {
+position: absolute;
+width: 100%;
+top: 159px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.FilterWrapper {
+  width: 100%;
+  display: block;
+}
+.Filter {
+  color: #fff;
+  width: 20%;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  padding-left: 30px;
+  padding-top: 26px;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, #2A7CCE 0%, #004DA9 100%);
+  border-radius: 40px;
+}
+
+.Filter > p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid rgba(254, 198, 25, 1);
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 18px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px;
+  border:solid 3px #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 3px;
+  top: -2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ContentWrapper {
+  width: 100%;
+  display:flex;
+  margin-top: 70px;
+}
+
+.ResultsWrapper {
+  background-color: rgba(247, 247, 247, 1);
+  position: absolute;
+  width: 897px;
+  margin-left: 443px;
+  height: 100%;
+  
+}
+
+.InfoWrapper {
+  background-color: rgba(217, 217, 217, 0.2);
+  border-radius: 42px;
+  padding: 15px 0 15px 110px;   
+  margin-bottom: 25px;
+  box-shadow: 2px 5px 10px rgba(52, 52, 52, 0.2);
+}
+
+.ResultTitle {
+  font-weight: bold;
+  Font-size: 18px ;
+  margin-bottom: 10px;
+}
+
+.Pict {
+  position: absolute;
+  width: 75px;
+  height: 116px;
+  background-color: orange;
+  border-radius: 42px 0 0 42px;
+}
+
+.ScholarshipLink {
+  text-decoration: none;
+  color: black;
+}
