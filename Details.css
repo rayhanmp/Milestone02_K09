@@ -1,0 +1,173 @@
+.wrapping {
+    width: 100%;
+    height: 100%
+}
+.beasiswappm {
+   /* */
+   position: absolute;
+    width: 1441px;
+    height: 662px;
+    left: -1px;
+    top: 0px;
+
+    background: linear-gradient(89.94deg, #004DA9 -8.89%, #2779CC 23.88%, rgba(42, 124, 206, 0) 73.85%), url("HEADER.png");
+}
+.title-desk {
+    /* DESKRIPSI BEASISWA */
+
+
+    position: absolute;
+    width: 582px;
+    height: 43px;
+    left: 439px;
+    top: 737px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    background: linear-gradient(90deg, #004DA9 -12.63%, #2A7CCE 125.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.isi-deskripsi {
+
+    position: absolute;
+    width: 773px;
+    height: 418px;
+    left: 333px;
+    top: 850px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+.bg-bdans {
+    /* Rectangle 35 */
+
+
+    position: absolute;
+    width: 1440px;
+    height: 523px;
+    left: 0px;
+    top: 1206px;
+
+    background: linear-gradient(180deg, #2A7CCE 0%, #004DA9 100%);
+}
+.title-bdans {
+    /* BERKAS DAN SYARAT */
+
+    position: absolute;
+    width: 610px;
+    height: 43px;
+    left: 425px;
+    top: 1246px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.isi-bdans {
+    /*Isi Latar Belakang*/
+
+    position: absolute;
+    width: 773px;
+    height: 470px;
+    left: 333px;
+    top: 1338px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+.title-benefit {
+    /* BENEFIT */
+
+    position: absolute;
+    width: 388px;
+    height: 38.05px;
+    left: 526px;
+    top: 1789px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    background: linear-gradient(90deg, #004DA9 -12.63%, #2A7CCE 125.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+
+.isi-benefit {
+    /*Isi benefit*/
+
+    position: absolute;
+    width: 773px;
+    height: 509.67px;
+    left: 333px;
+    top: 1887.33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+
+}
+
+.container-DP {
+    position: absolute;
+    width: 431px;
+    height: 103px;
+    left: 504px;
+    top: 2507px;
+
+    background: linear-gradient(180deg, #F9841A 0%, #FEC619 100%);
+    box-shadow: 0px 4px 11px #F9841A;
+    border-radius: 59.5px;
+}
+
+.isi-DP {
+    /* DAFTAR BEASISWA */
+
+    position: absolute;
+    width: 466px;
+    height: 80px;
+    left: 487px;
+    top: 2539px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
