@@ -1,6 +1,8 @@
 import React from 'react';
 import "./FindScholarships.css";
 import { Link } from 'react-router-dom';
+import FilterSatu from './FilterSatu';
+import FilterDua from './FilterDua';
 
 function FindScholarships() {
   return (
@@ -11,93 +13,133 @@ function FindScholarships() {
         </div>
         <div className="ContentWrapper">
           <div className="FilterWrapper">
-            <div className="Filter first">
-              <p>Jenis Beasiswa</p>
-              <label class="container">Beasiswa Pemerintah
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa Internasional
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa Penelitian
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa non-Akademik
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa Ikatan Dinas
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Pertukaran Pelajar
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-            </div>
-            <div className="Filter second">
-              <p>Pendidikan</p>
-              <label class="container">SMP/SEDERAJAT
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">SMA/SEDERAJAT
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">S1
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">S2
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">D3/D4
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-            </div>
-            <div className="Filter third">
-              <p>Jenis Beasiswa</p>
-              <label class="container">Beasiswa Pemerintah
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa Internasional
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa Penelitian
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Beasiswa non-Akademik
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-              <label class="container">Pertukaran Pelajar
-                <input type="checkbox"/>
-                <span class="checkmark"></span>
-              </label>
-            </div>
+            <FilterSatu />
+            <FilterDua />  
           </div>
 
           <div className="ResultsWrapper">
+
             <div className="ResultWrapper">
-              <div className="Pict"></div>
-              <div className="InfoWrapper">
-                <div className="ResultTitle">
-                  <Link to ="/Scholarship" className="ScholarshipLink">QUIPPER SCOLARSHIP AWARD</Link>
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
                 </div>
-                <div className="ResultType">Beasiswa non-Akademik</div>
-                <div className="ResultDate">Pendaftaran 3 Januari-18 Maret 2022</div>
-                <div className="ResultDegree">SMP/SEDERAJAT</div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
               </div>
             </div>
+            <div className="ResultWrapper">
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
+              </div>
+            </div>
+            <div className="ResultWrapper">
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
+              </div>
+            </div>
+            <div className="ResultWrapper">
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
+              </div>
+            </div>
+            <div className="ResultWrapper">
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
+              </div>
+            </div>
+            <div className="ResultWrapper">
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
+              </div>
+            </div>
+            <div className="ResultWrapper">
+              <div className='result-side-wrapper'>
+                <div className='result-picture-wrapper'>
+                  <div className='result-logo' > 
+                    <img src="/images/PPMlogo.png" alt=""/>
+                  </div>
+                </div>
+              </div>
+              <div className='result-description'>
+                <Link to ="/Detail" className='result-title'>Beasiswa PPM School of Management</Link>
+                <ul className='result-detail'>
+                  <li><img src="/images/icon4.png" className="icon-4" alt="" />Beasiswa Pemerintah</li>
+                  <li><img src="/images/icon5.png" className="icon-5" alt="" />Pendaftaran 3 Januari-8 Maret</li>
+                  <li><img src="/images/icon6.png" className="icon-6" alt="" />SMA/SEDERAJAT</li>
+                </ul>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>  
