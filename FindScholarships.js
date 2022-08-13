@@ -1,8 +1,8 @@
 import React from 'react';
 import "./FindScholarships.css";
 import { Link } from 'react-router-dom';
-import FilterSatu from './FilterSatu';
-import FilterDua from './FilterDua';
+import FilterSatu from './Components/Filter/FilterSatu';
+import FilterDua from './Components/Filter/FilterDua';
 
 function FindScholarships() {
   return (
