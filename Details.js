@@ -1,36 +1,184 @@
-import React from 'react'
-import "./Details.css"
-
-function Details() {
-  return (
-    <>
-    <div classname="beasiswappm"> 
-
-    </div> 
-    <div>
-      <h2 className='title-desk'>DESKRIPSI BEASISWA</h2>
-      <p className='isi-deskripsi'>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        </p>
-    </div>
-    <div className='bg-bdans'></div>
-    <div>
-      <h3 className='title-bdans'>BERKAS DAN SYARAT</h3>
-      <p className='isi-bdans'>
-      "Formulir pendaftaran PPM SoM 1 softcopy fotokopi KTP/Kartu Pelajar/Identitas lainnya 1 softcopy fotokopi Kartu Keluarga 1 softcopy foto berwarna ukuran 4x6 Softcopy/scan rapor SMA/Sederajat yang telah dilegalisir dari kelas X sampai dengan semester terakhir Softcopy/scan Surat Rekomendasi dari sekolah yang ditandatangani oleh guru BK/Kepala Sekolah/Wali Kelas Kandidat dapat melampirkan informasi prestasi yang telah diraih dengan dokumen pendukung Kandidat dapat melampirkan informasi prestasi yang telah diraih dengan dokumen pendukung."
-      </p>
-    </div>
-    <div>
-      <h4 className="title-benefit">BENEFIT</h4>
-      <p className='isi-benefit'>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit nulla ultrices et consequat leo tristique sed fringilla ut. Lacus orci, diam cras sit suspendisse tellus est. Diam mauris adipiscing ultricies ultrices lorem feugiat. Tellus felis, nibh volutpat arcu pellentesque diam, non. Magna sed viverra ipsum lorem elementum at tellus. Ipsum commodo posuere elit ac. Ligula orci nibh at nulla diam dui quisque commodo. Netus vitae consectetur tortor, vitae, fames amet auctor. Malesuada aliquet cursus nulla donec in pellentesque. Id a urna at vitae massa vitae. Tristique natoque adipiscing tincidunt eu, adipiscing sit amet turpis elementum. Tempus, sagittis turpis nulla enim habitant lectus lorem. Nullam sodales lectus tempus, ullamcorper vitae. Id volutpat lorem vestibulum odio vel arcu. Integer ultrices hendrerit sed ullamcorper. Faucibus integer urna vestibulum eget dis. Mauris leo lacus, et adipiscing sollicitudin ullamcorper a fames. Tincidunt gravida fermentum adipiscing vitae. Placerat libero vestibulum, proin lectus sit enim, viverra adipiscing vitae. Purus nisi sagittis, condimentum maecenas dictum pellentesque convallis. Gravida bibendum ullamcorper eget mauris lorem interdum et. Lacus, libero etiam facilisi dignissim. Orci, proin enim lorem aliquet leo tempor in duis sed. Rhoncus ultricies ultricies eu fringilla mi tempor, malesuada egestas adipiscing. Ac, urna, vitae nibh imperdiet magna sed non. At pretium, posuere faucibus tellus quisque in facilisi. Vestibulum dignissim sodales molestie nisl eleifend maecenas nibh. Varius proin eget suspendisse dictum leo aliquam."
-      </p>
-    </div>
-    <div classname='container-DP'>
-        <h2 classname='isi-DP'>DAFTAR BEASISWA</h2>
-    </div>
-    </>
-  )
+.header-wrapper {
+    width: 100%;
+    background-image: url(../public/images/header.png);
+    background-size: cover;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    color: white;
 }
 
-export default Details
+.detail-logo-wrapper {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 247, 247, 1);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+
+.detail-wrapper > h1 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.header-wrapper > ul {
+    list-style: none;
+}
+
+[class^="icon"] {
+    width: 25x;
+    height: 25px;
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+    fill: #fff;
+}
+
+.deskripsi-wrapper, .benefit-wrapper {
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.deskripsi-content, .benefit-content {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width : 600px;
+}
+
+.deskripsi-content > h1, .benefit-content > h1, .testimoni-container > h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #004DA9 -12.63%, #2A7CCE 125.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.syarat-wrapper {
+    padding-top : 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(180deg, #2A7CCE 0%, #004DA9 100%);
+    color: white;
+}
+
+.syarat-content > h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.syarat-content {
+    width : 600px;
+    margin: auto;
+}
+
+.syarat-content > ul > li {
+    padding-bottom: 10px;
+}
+
+.daftar-wrapper {
+    text-align: center;
+    padding-bottom: 200px;
+}
+.daftar-button {
+    border-style: none;
+    background: linear-gradient(180deg, #F9841A 0%, #FEC619 122.27%);
+    box-shadow: 0px 4px 11px #F9841A;
+    border-radius: 59.5px;
+    height: 90px;
+    width: 300px;
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.testimoni-container {
+    padding-bottom: 300px;
+}
+
+.testimoni-container > h1 {
+    margin-bottom: 100px
+}
+
+.testimoni-content, .testi-header {
+    display: flex;
+    justify-content: center;
+}
+
+.testimoni-item1, .testimoni-item2 {
+    margin: 0px 60px;
+    width: 473px;
+    height: 365px;
+    background: #F7F7F7;
+    box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.28);
+    border-radius: 0px 0px 61px 61px;
+}
+
+.testi-header1, .testi-header2 {
+    margin: 0px 60px;
+    width: 473px;
+    height: 176px;
+    background: linear-gradient(0deg, #F9841A 10.45%, #FEC619 139.09%);
+    border-radius: 61px 61px 0px 0px;
+    box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testi-header-content {
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info {
+    margin-left: 20px;
+    color:rgba(247, 247, 247, 1)
+}
+
+.name {
+    margin-bottom: 10px;
+}
+
+.testimoni-item-content {
+    padding: 20px 50px;
+}
+
+.decor1 {
+    position: absolute;
+    width: 140px;
+    top: 600px;
+}
+
+.decor2 {
+    position: absolute;
+    width: 140px;
+    right:0%;
+    top: 470px;
+}
+
+.decor3 {
+    position: absolute;
+    width: 140px;
+    top: 1650px;
+}
+
+.decor4 {
+    position: absolute;
+    width: 140px;
+    right:0%;
+    top: 1350px;
+}
+
+
+
