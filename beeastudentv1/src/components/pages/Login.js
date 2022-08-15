@@ -45,7 +45,6 @@ const Login = () => {
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive">{errMsg}</p>
         <div className='login-components-right'>
           <div className='login-elements'>
-            <img src='./images/components4.png'></img>
             <div className='header-login'>WELCOME BACK!</div>
           </div>
         </div>
