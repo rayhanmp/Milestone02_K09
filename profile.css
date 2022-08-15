@@ -10,6 +10,16 @@
     border-radius: 0px 0px 60px 60px;
 }
 
+.bg-pict {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 96px;
+    top: 274px;
+
+    background: #F7F7F7;
+}
+
 .message-button {
     position: absolute;
     width: 206.55px;
@@ -21,6 +31,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
 }
+
+.message-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+    }
 
 .profile-name {
     position: absolute;
@@ -67,12 +88,6 @@
 }
 
 .desc {
-    position: absolute;
-    width: 1073px;
-    height: 116px;
-    left: 177px;
-    top: 742px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -86,8 +101,6 @@
     position: absolute;
     width: 587px;
     height: 459px;
-    left: 101px;
-    top: 952px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
@@ -98,21 +111,55 @@
     position: absolute;
     width: 587px;
     height: 459px;
-    left: 755px;
-    top: 952px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
     border-radius: 26px;
 }
 
+.heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
 .title {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
 
-    color: #2779CC;
+    color: #000000;
+
 }
 
+.sub-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #505050;
+}
+
+.line {
+    width: 435.21px;
+    height: 0px;
+    border: 1px solid #C0C0C0;
+}
+
+.show-all {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #4A4A4A;
+}
