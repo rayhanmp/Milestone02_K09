@@ -1,6 +1,6 @@
 .wrapper {
     width: 100%;
-    height: 100%;
+    height:1858px;
     background-color: rgba(247, 247, 247, 1);
 }
 
@@ -13,7 +13,7 @@
     border-radius: 0px 0px 146px 146px; 
 }
 
-.TitleWrapper > h1 {
+.title-scholar {
     position: absolute;
     width: 100%;
     top: 159px;
@@ -27,90 +27,58 @@
     text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
 }
 
-.ContentWrapper {
-    display: flex;
-    margin-top: 70px;
-    padding-right: 100px;
-    padding-left: 100px;
+
+
+
+.scholar-list{
+    position:absolute;
+    left: 562px;
+    top: 394px;
 }
+
 .FilterWrapper {
     width:25%;
+    margin:50px;
+
 }
 
-.ResultsWrapper {
-    width: 75%;
-    margin-left: 50px;
-}
-
-.ResultsWrapper > h1 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.ResultWrapper {
-    width: 100%;
-    height: 160px;
+.card-wrapper {
+    background: linear-gradient(182.81deg, #F9841A -11.96%, #FEC619 69.52%);
+    box-shadow: 0px 4px 10px rgba(247, 247, 247, 0.5);
     border-radius: 42px;
+    border-radius: 20px;
+    padding: 15px 0px 10px 50px;   
+    margin-bottom: 25px;
+    width: 700px;
+    height: 110px;
+
     display: flex;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 25px;
-}
-.InfoWrapper {
-    background-color: rgba(217, 217, 217, 0.1);
-    border-radius: 42px;
-    padding: 15px 0 15px 110px;   
-    margin-bottom: 25px;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
-.ResultTitle {
+.scholar-name{
     font-weight: bold;
     Font-size: 18px ;
     margin-bottom: 10px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #142B6F;
 }
 
-.result-description {
-    margin-top: 15px;
-    margin-left: 20px;
+.scholar-detail{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #142B6F;
+    
 }
 
-.result-side-wrapper {
-    width: 127px;
-    height: 100%;
-    background: linear-gradient(180deg, #F07300 -28.78%, #FEC619 118.31%);
-    border-radius: 43px 0px 0px 37px;
-}
-
-.result-picture-wrapper {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: white;
-    margin: auto;
-    margin-top: 35px;
-}
-
-.result-logo > img {
-    width: 100%;
-    margin-top: 15px;
-}
-
-.result-detail {
-    list-style: none;
-}
-
-[class^="icon"] {
-    width: 25x;
-    height: 25px;
-    position: relative;
-    top: 8px;
-    margin-right: 10px;
-}
-
-.result-title {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-}
