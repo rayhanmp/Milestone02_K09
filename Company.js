@@ -38,7 +38,7 @@ const Company = () => {
             <div className='company-cards'>
               <div className='company-cards-wrapper'>
                 <div className='company-card' key={item.id}>
-                  <div className='company-image'>{item.img}</div>
+                  <div className='company-image'>{item.image}</div>
                   <div className='company-name'>{item.companyName}</div>
                   <div className='company-text'>{item.description}</div>
                 </div>

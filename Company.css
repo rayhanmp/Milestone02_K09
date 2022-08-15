@@ -1,3 +1,9 @@
+.company-wrapper{
+    width: 100%;
+    height:1800px;
+    background: #F7F7F7;
+}
+
 .company-title {
     background: linear-gradient(180deg, #2A7CCE 32.29%, #004DA9 100%);
     box-shadow: 0px 12px 29px rgba(0, 0, 0, 0.25);
@@ -5,10 +11,7 @@
     width: 100%;
     height: 246px;
 }
-.company-body{
-    width: 100%;
-    height:2000px;
-}
+
 .company-title {
     text-align: center;
     padding-top: 86px;
@@ -53,79 +56,27 @@
 
 
 .company-cards-wrapper{
-    width: 100%;
-    display:grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    place-content:center;
-    gap: 1rem;
-
-    position: relative;
-    overflow:hidden;
-    top:50px;
+    position:relative;
+    top: 120px;
+    left: 50px;
 }
 .company-card {
     overflow: hidden;
     display:grid;
     place-content: center;
     flex-direction: column;
-    height: 420px;
-    width: 344px;
+    height: 400px;
+    width: 400px;
     background: #FFFFFF;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
-    border-radius: 42px;
+    border-radius: 20px;
     float: left;
     margin-bottom: 20px;
     margin-left: 20px;
 
 
 
-
 }
-
-.company-image{
-    height: 148px;
-    width: 100%;
-    border-radius : 58px 58px 0 0;
-    background-size: cover;
-}
-
-.company-image{
-    width:50%;
-}
-
-.company-name{
-    position:absolute;
-    left:140px;
-    top: 210px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-
-    color: #000000;
-
-}
-
-.company-text{
-    position:absolute;
-    left:40px;
-    top: 230px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    width: 290px;
-    height: 152px;
-    line-height: 22px;
-    text-align: justify;
-    padding: 10px 20px;
-
-    color: #4A4A4A;
-}
-
-
 .card-logo{
     width: 58px;
 }
@@ -134,19 +85,23 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 22px;
     margin-left: 10px;
 }
 
-.title-wrapper{
+.company-name{
+    position:relative;
+    left: 120px;
+    font-weight: 800px;
     display: flex;
     padding-top: 10px;
     margin-bottom: 15px;
     margin-left: 10px;
+    font-size: 24px;
 }
 
-.card-body{
+.company-text{
     margin-left: 20px;
     margin-right: 20px;
     font-family: 'Inter';
@@ -154,6 +109,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    text-align: justify;
+
+    color: #4A4A4A;
 }
 
 .card-link{
