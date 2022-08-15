@@ -1,124 +1,56 @@
 import React from 'react';
 import "./Company.css"
+import dataCompany from './Companydata';
+import { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 
-function Company() {
-  return (
-    <>
-      <div className="company-wrapper">
+const Company = () => {
+  const [filter, setFilter] =useState('');
+
+  const searchText = (e) => {
+    setFilter(e.target.value)
+  };
+
+  let dataSearch = dataCompany.filter(item =>{
+    return Object.keys(item).some(key =>
+      item[key].toString().toLowerCase().includes(filter))
+  });
+
+  return(
+    <div className="company-wrapper">
         <div className="company-title">
-          <h1>Company/Institute</h1>
+          Company/Institute
         </div>
-        <div className='company-body'>
-          <div className="searchInput-company">
-            <div className='searchbar'>
-              <input id="searchInput" type="text" className="search-company"placeholder="Search here..." />
-            </div>
-            <div className='search-button'>
-              <button className="company-button"><img src="/images/search.png" alt=""/></button>
-            </div>
+      <div className='company-body'>
+        <div className="searchInput-company">
+          <div className='searchbar'>
+            <input id="searchInput" type="text" className="search-company"placeholder="Search here..."
+            value={filter} onChange={searchText.bind(this)}/>
           </div>
-          <div className='company-cards-wrapper'>
-            <div className='company-card'>
-              <div className='card1'> 
-                <div className='card-header'></div>
-                <div className='title-wrapper'>
-                  <img src="https://digitalfinger.id/wp-content/uploads/2019/12/logo-ppm-school-new-768x257.png" className="card-logo"alt=""/>
-                  <div className='card-title'>PPM School of Management</div>
-                </div>
-                <div className='card-body'>
-                PPM School of Management merupakan salah satu institusi pendidikan tinggi yang unggul di bidang studi Manajemen Bisnis dan Akuntansi di Indonesia. 
-                </div>
-                <div className='card-link'>
-                  <a href='/' className='detail-cardlink'>Lihat selengkapnya</a>
-                </div>
-              </div>
-              
-            </div>
-            <div className='company-card'>
-              <div className='card1'> 
-                <div className='card-header'></div>
-                <div className='title-wrapper'>
-                  <img src="https://digitalfinger.id/wp-content/uploads/2019/12/logo-ppm-school-new-768x257.png" className="card-logo"alt=""/>
-                  <div className='card-title'>PPM School of Management</div>
-                </div>
-                <div className='card-body'>
-                PPM School of Management merupakan salah satu institusi pendidikan tinggi yang unggul di bidang studi Manajemen Bisnis dan Akuntansi di Indonesia. 
-                </div>
-                <div className='card-link'>
-                  <a href='/' className='detail-cardlink'>Lihat selengkapnya</a>
-                </div>
-              </div>
-              
-            </div>
-            <div className='company-card'>
-              <div className='card1'> 
-                <div className='card-header'></div>
-                <div className='title-wrapper'>
-                  <img src="https://digitalfinger.id/wp-content/uploads/2019/12/logo-ppm-school-new-768x257.png" className="card-logo"alt=""/>
-                  <div className='card-title'>PPM School of Management</div>
-                </div>
-                <div className='card-body'>
-                PPM School of Management merupakan salah satu institusi pendidikan tinggi yang unggul di bidang studi Manajemen Bisnis dan Akuntansi di Indonesia. 
-                </div>
-                <div className='card-link'>
-                  <a href='/' className='detail-cardlink'>Lihat selengkapnya</a>
-                </div>
-              </div>
-              
-            </div>
-            <div className='company-card'>
-              <div className='card1'> 
-                <div className='card-header'></div>
-                <div className='title-wrapper'>
-                  <img src="https://digitalfinger.id/wp-content/uploads/2019/12/logo-ppm-school-new-768x257.png" className="card-logo"alt=""/>
-                  <div className='card-title'>PPM School of Management</div>
-                </div>
-                <div className='card-body'>
-                PPM School of Management merupakan salah satu institusi pendidikan tinggi yang unggul di bidang studi Manajemen Bisnis dan Akuntansi di Indonesia. 
-                </div>
-                <div className='card-link'>
-                  <a href='/' className='detail-cardlink'>Lihat selengkapnya</a>
-                </div>
-              </div>
-              
-            </div>
-            <div className='company-card'>
-              <div className='card1'> 
-                <div className='card-header'></div>
-                <div className='title-wrapper'>
-                  <img src="https://digitalfinger.id/wp-content/uploads/2019/12/logo-ppm-school-new-768x257.png" className="card-logo"alt=""/>
-                  <div className='card-title'>PPM School of Management</div>
-                </div>
-                <div className='card-body'>
-                PPM School of Management merupakan salah satu institusi pendidikan tinggi yang unggul di bidang studi Manajemen Bisnis dan Akuntansi di Indonesia. 
-                </div>
-                <div className='card-link'>
-                  <a href='/' className='detail-cardlink'>Lihat selengkapnya</a>
-                </div>
-              </div>
-              
-            </div>
-            <div className='company-card'>
-              <div className='card1'> 
-                <div className='card-header'></div>
-                <div className='title-wrapper'>
-                  <img src="https://digitalfinger.id/wp-content/uploads/2019/12/logo-ppm-school-new-768x257.png" className="card-logo"alt=""/>
-                  <div className='card-title'>PPM School of Management</div>
-                </div>
-                <div className='card-body'>
-                PPM School of Management merupakan salah satu institusi pendidikan tinggi yang unggul di bidang studi Manajemen Bisnis dan Akuntansi di Indonesia. 
-                </div>
-                <div className='card-link'>
-                  <a href='/' className='detail-cardlink'>Lihat selengkapnya</a>
-                </div>
-              </div>
-              
-            </div>
-            
+          <div className='search-button'>
+              <button className="company-button"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
           </div>
+
+          
+        {dataSearch.map((item, index)=>{
+          return(
+            <div className='company-cards'>
+              <div className='company-cards-wrapper'>
+                <div className='company-card' key={item.id}>
+                  <div className='company-image'>{item.img}</div>
+                  <div className='company-name'>{item.companyName}</div>
+                  <div className='company-text'>{item.description}</div>
+                </div>
+              </div>
+            </div>
+            )
+          })}
+        
+  
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
