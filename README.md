@@ -30,16 +30,22 @@ Nurshafa Qanita(16521520)
 6. Ketika `npm start` dan web app akan terbuka pada local host komputer masing-masing
 
 ## Fitur yang terdapat pada aplikasi
-1. Landing Page  
-Landing Page atau Home dari website, terdiri atas Navigation Bar, Footer, dan juga fitur    pencari beasiswa yang dilengkapi dengan filter. Landing Page ini akan menjadi halaman pertama   yang dilihat oleh pengguna ketika memasuki website, dan berguna sebagai pusat navigasi untuk    melihat fitur-fitur website yang lain serta untuk mencari informasi beasiswa dengan cepat.
+### 1. Landing Page  
+Landing Page atau Home dari website, terdiri atas Navigation Bar, Footer, dan juga fitur    pencari beasiswa yang dilengkapi dengan filter. Landing Page ini akan menjadi halaman pertama   yang dilihat oleh pengguna ketika memasuki website, dan berguna sebagai pusat navigasi untuk melihat fitur-fitur website yang lain serta untuk mencari informasi beasiswa dengan cepat.
 
-2. About us  
+### 2. About us  
 About Us Page berisi informasi mengenai website seperti visi, latar belakang, informasi logo,   dan juga mengapa website tersebut baik untuk digunakan. About Us Page dibuat agar pengguna  mendapatkan informasi dan gambaran tentang website secara lebih menyeluruh serta membangun  kepercayaan pengguna terhadap transparansi dan kredibilitas website.
 
-3. Find Scholarships  
+### 3. Find Scholarships  
 Di halaman ini tersedia berbagai informasi beasiswa yang terpusat. Pengguna dapat melihat   berbagai jenis beasiswa yang sesuai dengan kriterianya. Disediakan pula fitur filter yang dapat menyaring informasi beasiswa berdasarkan jenis beasiswa, tingkat pendidikan, dan    spesialisasinya. Halaman ini menjadi halaman yang memuat tujuan dan fungsi utama website, yaitu untuk menyajikan informasi beasiswa yang terpusat dan mudah diakses masyarakat luas.
 
-4. Profile institute
-5. Profile scholar
-6. login/sign up
+### 4. Profile institute
+Profile Company / Institute Page berisi profil atau informasi mengenai lembaga-lembaga yang sedang atau rutin menyelenggarakan beasiswa. Page ini juga dilengkapi dengan mesin pencari sehingga pengguna mendapatkan informasi lebih lanjut mengenai lembaga yang sedang diminati atau diincar.
 
+### 5. Profile scholar
+Find Scholarship Alumnus Page merupakan laman untuk melihat profil alumni dari beasiswa-beasiswa yang tersedia. Laman akan dilengkapi dengan testimoni-testimoni alumni terhadap beasiswa yang diambilnya. Alumni yang ditampilkan di laman tersebut dapat diatur oleh pengguna berdasarkan jenis beasiswa, pendidikan, dan spesialisasinya. Profil alumni tersebut dapat dilihat secara detail melalui profile page.
+Profile Page merupakan laman profil lengkap dari suatu akun di dalam website tersebut. Laman profile terdiri dari profile picture, nama lengkap, profesi, deskripsi singkat, pendidikan historis, dan juga beasiswa yang pernah diambil. Laman tersebut dilengkapi tombol “Message” jika pengguna ingin mengirimkan pesan kepada akun tersebut. 
+
+### 6. login/sign up
+Log In Page merupakan pintu masuk pengguna untuk mengakses konten di dalam website. Di halaman ini, pengguna diminta untuk memasukkan kredensial pengguna ke dalam kolom yang tersedia kemudian memencet tombol “LOGIN” untuk masuk dengan akun. Halaman ini juga menyediakan tombol “SIGNUP” untuk mendaftar jika pengguna belum memiliki akun. 
+Sign Up Page merupakan tempat pengguna untuk membuat akun. Pengguna akan diminta untuk mengisi beberapa data yang dibutuhkan untuk membuat akun, yaitu: nama lengkap, alamat e-mail, username, dan password. Setelah mengisi data, pengguna dapat menekan tombol “SIGNUP” untuk mendaftarkan akunnya. Halaman ini juga dilengkapi dengan tombol “LOGIN” jika pengguna sudah memiliki akun dan ingin memasuki website menggunakan akun.
