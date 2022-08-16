@@ -30,13 +30,13 @@ Nurshafa Qanita(16521520)
 6. Ketika `npm start` dan web app akan terbuka pada local host komputer masing-masing
 
 ## Fitur yang terdapat pada aplikasi
-1. Landing Page
+1. Landing Page  
 Landing Page atau Home dari website, terdiri atas Navigation Bar, Footer, dan juga fitur    pencari beasiswa yang dilengkapi dengan filter. Landing Page ini akan menjadi halaman pertama   yang dilihat oleh pengguna ketika memasuki website, dan berguna sebagai pusat navigasi untuk    melihat fitur-fitur website yang lain serta untuk mencari informasi beasiswa dengan cepat.
 
-2. About us
+2. About us  
 About Us Page berisi informasi mengenai website seperti visi, latar belakang, informasi logo,   dan juga mengapa website tersebut baik untuk digunakan. About Us Page dibuat agar pengguna  mendapatkan informasi dan gambaran tentang website secara lebih menyeluruh serta membangun  kepercayaan pengguna terhadap transparansi dan kredibilitas website.
 
-3. Find Scholarships
+3. Find Scholarships  
 Di halaman ini tersedia berbagai informasi beasiswa yang terpusat. Pengguna dapat melihat   berbagai jenis beasiswa yang sesuai dengan kriterianya. Disediakan pula fitur filter yang dapat menyaring informasi beasiswa berdasarkan jenis beasiswa, tingkat pendidikan, dan    spesialisasinya. Halaman ini menjadi halaman yang memuat tujuan dan fungsi utama website, yaitu untuk menyajikan informasi beasiswa yang terpusat dan mudah diakses masyarakat luas.
 
 4. Profile institute
