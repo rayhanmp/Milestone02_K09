@@ -51,4 +51,4 @@ Log In Page merupakan pintu masuk pengguna untuk mengakses konten di dalam websi
 Sign Up Page merupakan tempat pengguna untuk membuat akun. Pengguna akan diminta untuk mengisi beberapa data yang dibutuhkan untuk membuat akun, yaitu: nama lengkap, alamat e-mail, username, dan password. Setelah mengisi data, pengguna dapat menekan tombol “SIGNUP” untuk mendaftarkan akunnya. Halaman ini juga dilengkapi dengan tombol “LOGIN” jika pengguna sudah memiliki akun dan ingin memasuki website menggunakan akun.
 
 ## Demo Situs Web
-https://62fb6f52785d530099c5482a--resonant-sunflower-cd1edc.netlify.app/
+Pranala: https://62fb6f52785d530099c5482a--resonant-sunflower-cd1edc.netlify.app/
