@@ -40,7 +40,7 @@ About Us Page berisi informasi mengenai website seperti visi, latar belakang, in
 Di halaman ini tersedia berbagai informasi beasiswa yang terpusat. Pengguna dapat melihat   berbagai jenis beasiswa yang sesuai dengan kriterianya. Disediakan pula fitur filter yang dapat menyaring informasi beasiswa berdasarkan jenis beasiswa, tingkat pendidikan, dan    spesialisasinya. Halaman ini menjadi halaman yang memuat tujuan dan fungsi utama website, yaitu untuk menyajikan informasi beasiswa yang terpusat dan mudah diakses masyarakat luas.
 
 ### 4. Profile institute
-Profile Company / Institute Page berisi profil atau informasi mengenai lembaga-lembaga yang sedang atau rutin menyelenggarakan beasiswa. Page ini juga dilengkapi dengan mesin pencari sehingga pengguna mendapatkan informasi lebih lanjut mengenai lembaga yang sedang diminati atau diincar.
+Profile Company / Institute Page berisi profil atau informasi mengenai lembaga-lembaga yang sedang atau rutin menyelenggarakan beasiswa. Page ini juga dilengkapi dengan mesin pencari sehingga pengguna dapat melakukan pencarian serta mendapatkan informasi lebih lanjut mengenai lembaga yang sedang diminati atau diincar.
 
 ### 5. Profile scholar
 Find Scholarship Alumnus Page merupakan laman untuk melihat profil alumni dari beasiswa-beasiswa yang tersedia. Laman akan dilengkapi dengan testimoni-testimoni alumni terhadap beasiswa yang diambilnya. Alumni yang ditampilkan di laman tersebut dapat diatur oleh pengguna berdasarkan jenis beasiswa, pendidikan, dan spesialisasinya. Profil alumni tersebut dapat dilihat secara detail melalui profile page.
