@@ -2,6 +2,9 @@
 
 Bee A Student merupakan platform terpusat bagi para pemberi beasiswa untuk memasarkan beasiswanya. Platform Bee A Student memiliki berbagai fitur seperti adanya fitur sortir dan filter berdasarkan instansi pemberi beasiswa dan tingkat pendidikan, laman tips mendapatkan beasiswa, kontak alumnus, hingga fitur profil yang memungkinkan antar peserta didik untuk berkomunikasi.
 
+Dengan demikian, platform Bee A Student diharapkan dapat membantu peserta didik mencari beasiswa yang tepat sekaligus menjadi ajang promosi pemberi beasiswa agar dapat menjaring calon awardee yang tepat sasaran pula. Walaupun dalam pengembangannya, masih terdapat banyak kelemahan, platform Bee A Student tetap dapat menjadi salah satu platform andalan peserta didik karena belum ada platform terpusat sejenis untuk beasiswa yang memiliki fitur selengkap Bee A Student.
+
+
 ## Oleh:
 ### Kelompok 9 
 Ken Azizan(16521013) \
