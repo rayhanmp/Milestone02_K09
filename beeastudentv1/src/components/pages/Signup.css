@@ -1,0 +1,300 @@
+.signup-container{
+    background: #004DA9;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: in-line;
+}
+
+.signupContain{
+    background: #004DA9;
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: in-line;
+}
+
+.signupTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    position: absolute;
+    top:200px;
+    left: 530px;
+    color: #FFFFFF;
+}
+
+.buttonToHomes{
+    color:#004DA9;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    width:150px;
+    height: 41px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    background-color: #FEC619;
+    padding: 10px;
+
+    position: absolute;
+    top:300px;
+    left: 600px;
+
+    border: none;
+}
+.linkTo:link{
+    text-decoration: none;
+}
+.linkTo:active{
+    color:#004DA9;
+}
+
+.errMsg{
+    position:absolute;
+    left: 257px;
+    top: 449px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #FF0000;
+
+}
+.image-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.image-signup{
+    left: 0px;
+    top: 80px;
+}
+.title{
+    position: absolute;
+    width: 1247px;
+    height: 78px;
+    left: 97px;
+    top: 169px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 73px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.signup-rectangle{
+    display: inline-block;
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    left: 250px;
+    top: 96px;
+    background: linear-gradient(182.81deg, #F9841A -11.96%, #FEC619 69.52%);
+    box-shadow: 0px 4px 10px rgba(247, 247, 247, 0.5);
+    border-radius: 36px;
+    object-fit: contain;
+    display: block;
+}
+
+.signup-logo{
+    position: absolute;
+    width: 165px;
+    height: 65px;
+    left: 355px;
+    top: 10px;
+}
+.signup-form{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.signup-button{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left:20px;
+    top: 320px;
+
+    background: #F2831E;
+    box-shadow: 0px 4px 10px #F07300;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.to-login{
+    position: absolute;
+    height: 19px;
+    top: 620px;
+    margin-left: 30px;
+    color: #FFFFFF;
+
+}
+
+.line{
+    color: #142B6F;
+}
+
+input{
+    display:flex;
+    flex-direction:column;  }
+
+.form-label-fullname{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: -70px;
+    left:-45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+.form-label-email{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: 5px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.form-label-username{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: 80px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.form-label-password{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top:155px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+.form-label-password2{
+    position: absolute;
+    width: 638.14px;
+    height: 24.7px;
+    top: 230px;
+    left: -45px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+    
+}
+
+@media screen and (max-width: 960px) {
+    .signup-rectangle{
+        position: absolute;
+        width: 450px;
+        height: 550px;
+        left: 20px;
+        top: 101px;
+
+    }
+
+    .signup-logo{
+        position: absolute;
+        width: 160px;
+        height: 62px;
+        left: 130px;
+        top: 20px;
+    }
+
+    .signup-form{
+        position: absolute;
+        top: 150px;
+        left: 70px;
+        display: inline-block;
+        object-fit: contain;
+        
+    }
+
+    .signup-button{
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        left: 100px;
+        top: 470px;
+    }
+
+    .to-login{
+        position: absolute;
+        height: 19px;
+        left: 140px;
+        top: 620px;
+        color: #FFFFFF;
+    
+    }
+}
