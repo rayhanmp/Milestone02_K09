@@ -1,6 +1,6 @@
 # Bee A Student
 
-Aplikasi untuk mencari lowongan beasiswa <3
+Bee A Student merupakan platform terpusat bagi para pemberi beasiswa untuk memasarkan beasiswanya. Platform Bee A Student memiliki berbagai fitur seperti adanya fitur sortir dan filter berdasarkan instansi pemberi beasiswa dan tingkat pendidikan, laman tips mendapatkan beasiswa, kontak alumnus, hingga fitur profil yang memungkinkan antar peserta didik untuk berkomunikasi satu sama lain.
 
 ## Oleh:
 ### Kelompok 9 
