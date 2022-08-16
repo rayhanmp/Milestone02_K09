@@ -49,3 +49,6 @@ Profile Page merupakan laman profil lengkap dari suatu akun di dalam website ter
 ### 6. Log In dan Sign Up
 Log In Page merupakan pintu masuk pengguna untuk mengakses konten di dalam website. Di halaman ini, pengguna diminta untuk memasukkan kredensial pengguna ke dalam kolom yang tersedia kemudian memencet tombol “LOGIN” untuk masuk dengan akun. Halaman ini juga menyediakan tombol “SIGNUP” untuk mendaftar jika pengguna belum memiliki akun. 
 Sign Up Page merupakan tempat pengguna untuk membuat akun. Pengguna akan diminta untuk mengisi beberapa data yang dibutuhkan untuk membuat akun, yaitu: nama lengkap, alamat e-mail, username, dan password. Setelah mengisi data, pengguna dapat menekan tombol “SIGNUP” untuk mendaftarkan akunnya. Halaman ini juga dilengkapi dengan tombol “LOGIN” jika pengguna sudah memiliki akun dan ingin memasuki website menggunakan akun.
+
+## Demo Situs Web
+https://62fb6f52785d530099c5482a--resonant-sunflower-cd1edc.netlify.app/
