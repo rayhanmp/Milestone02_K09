@@ -7,19 +7,19 @@ Dengan demikian, platform Bee A Student diharapkan dapat membantu peserta didik 
 
 ## Oleh:
 ### Kelompok 9 
-Ken Azizan(16521013) \
-Hanif Muhammad Zhafran(16521066) \
-I Dewa Made Manu Pradnyana(16521186) \
-Kenneth Dave Bahan(16521227) \
-Dhanika Novlisariyant(16521257) \
-Febryan Arota Hia(16521278) \
-Nadine Aliya Putri(16521289) \
-Muhammad Rifko Favian(16521297) \
-Rayhan Maheswara Pramanda(16521307) \
-Go Dillon Audris(16521384) \
-Muhammad A. Bismaramadhan(16521499) \
-Sri Laksmi Purwoningtyas(16521518) \
-Nurshafa Qanita(16521520)
+Ken Azizan(16521013) - Front-end \
+Hanif Muhammad Zhafran(16521066) - Front-end \
+I Dewa Made Manu Pradnyana(16521186) - Front-end \
+Kenneth Dave Bahan(16521227) - Front-end \
+Dhanika Novlisariyant(16521257) - Front-end \
+Febryan Arota Hia(16521278) - Front-end \
+Nadine Aliya Putri(16521289) - Front-end \
+Muhammad Rifko Favian(16521297) - Front-end \
+Rayhan Maheswara Pramanda(16521307) - Front-end \
+Go Dillon Audris(16521384) - Front-end \
+Muhammad A. Bismaramadhan(16521499) - Front-end \
+Sri Laksmi Purwoningtyas(16521518) - Front-end \
+Nurshafa Qanita(16521520) - Front-end
 
 ## Cara menjalankan aplikasi
 1. Pastikan NodeJS sudah terinstall
