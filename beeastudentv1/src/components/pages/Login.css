@@ -1,0 +1,285 @@
+
+.login-container{
+    background: #004DA9;
+    width:100%;
+    height: 1024px;
+    left: 0px;
+    top: -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.login-components-right{
+    background: #FEC619 ;
+    position: absolute;
+    width: 598px;
+    height: 1062px;
+    left: 0px;
+    top: 0px;
+}
+
+.login-elemennts{
+    object-fit:contain;
+}
+
+.header-login{
+    /* WELCOME BACK! */
+    position: absolute;
+    width: 510px;
+    height: 232px;
+    left: 39px;
+    top: 345px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 116px;
+    text-align: center;
+    color: #ffff;
+
+}
+
+
+.login-components-left{
+    position: absolute;
+
+}
+
+.login-title{
+  /* LOGIN */
+  position: absolute;
+  left: 200px;
+  top: -430px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 77px;
+
+    color: #FFFFFF;
+
+}
+input{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.25);
+    border-radius: 10px
+    
+}
+input:active{
+    border:none;
+    outline: none;
+}
+
+.username-form{
+    position:absolute;
+    left: 80px;
+    top: -280px;
+
+}
+.password-form{
+    position:absolute;
+    left: 39.9px;
+    top: -110px;
+}
+
+.form--input{
+    position:absolute;
+    width: 250px;
+    height: 50px;
+    left: 140px;
+    top: -140px;
+    background: #4FA7FF;
+    box-shadow: 0px 4px 10px #2A7CCE;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.form--input:hover{
+    background-color: #fff;
+    color: #4FA7FF;
+}
+
+
+.text-signup{
+    position: absolute;
+    width: 148px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.to-signup{
+    position: absolute;
+    width: 148px;
+    height: 19px;
+    left: 180px;
+    top: -px;
+    color: #FFFFFF;
+
+}
+
+.directsignup{
+    color: #FEC619;
+}
+
+.loginredirect{
+    background-color: #004DA9;
+    width: 100%;
+    height: 100vh;
+}
+
+.loggedIn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    position: absolute;
+    top:200px;
+    left: 400px;
+    color: #FFFFFF;
+
+}
+
+.goHome{
+    color:#004DA9;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    width:150px;
+    height: 41px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    background-color: #FEC619;
+    padding: 10px;
+
+    position: absolute;
+    top:300px;
+    left: 600px;
+
+    border: none;
+
+}
+.goHome{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+    .login-components-right{
+        position: absolute;
+        width: 100%;
+        height: 170px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .header-login{
+        position: absolute;
+        width: 266px;
+        height: 39px;
+        left: 105px;
+        top: 101px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+    }
+
+    .login-title{
+        /* LOGIN */
+        position: absolute;
+        left: -40px;
+        top: -350px;
+      
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 24px;
+          line-height: 77px;
+      
+          color: #FFFFFF;
+      
+      }
+
+      .username-form{
+        position:absolute;
+        left: -205px;
+        top: -250px;
+    
+    }
+    .password-form{
+        position:absolute;
+        left: -103px;
+        top: -90px;
+    }
+
+    .form--input{
+        position:absolute;
+        width: 250px;
+        height: 50px;
+        left: -130px;
+        top: -100px;
+        background: #4FA7FF;
+        box-shadow: 0px 4px 10px #2A7CCE;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 39px;
+        text-align: center;
+        color: #fff;
+    
+    }
+
+    .to-signup{
+        position: absolute;
+        width: 148px;
+        height: 19px;
+        left: -80px;
+        top: -30px;
+        color: #FFFFFF;
+    
+    }
+
+}

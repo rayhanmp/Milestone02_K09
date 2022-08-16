@@ -1,0 +1,184 @@
+.detailAlumnusContainer{
+    width: 100%;
+    height: 2000px;
+    background-size: cover;
+    color: #F7F7F7;
+}
+
+.detailAlumnusHeader{
+    position: absolute;
+    width: 100%;
+    height: 441px;
+    left: 0px;
+    top: 0px;
+    z-index: -999;
+
+    background: linear-gradient(180deg, #2A7CCE 32.29%, #004DA9 100%);
+    box-shadow: 0px 12px 29px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 60px 60px;
+}
+.profpicUpload{
+    color:#004DA9;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.profpic{
+    position:absolute;
+    margin-top: 240px;
+    margin-left: 70px;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    background-color:#fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(20, 43, 111, 0.5);
+}
+
+
+.nama{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 70px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 73px;
+
+    color: #004DA9;
+
+}
+
+.pekerjaan{
+    position: absolute;
+    margin-top: 530px;
+    left: 70px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #2A7CCE;
+}
+
+.textAlumnus{
+    position: absolute;
+    width: 1240px;
+    height: 225px;
+    margin-top: 0px;
+    margin-left: -50px;
+
+    left: 101px;
+    top: 672px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 26px;
+
+    align-items: center;
+}
+.text-detailAlumnus{
+    width: 1200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.footer-linked-inDetailsAlumnus{
+    color:#004DA9;
+    margin-top: 510px;
+    margin-left: 800px;
+}
+
+.footer-twitterDetailsAlumnus{
+    color:#004DA9;
+    margin-top: 510px;
+    margin-left: 840px;
+}
+
+.footer-instagramDetailsAlumnus{
+    color:#004DA9;
+    margin-top: 510px;
+    margin-left: 880px;
+}
+
+.footer-linked-inDetailsAlumnus:hover{
+    color: #FEC619;
+
+}
+.footer-instagramDetailsAlumnus:hover{
+    color: #FEC619;
+
+} 
+.footer-twitterDetailsAlumnus:hover{
+    color: #FEC619;
+
+}
+
+.profpicUX{
+    position: absolute;
+    width: 587px;
+    height: 459px;
+    margin-top: 900px;
+    margin-left:50px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 26px;
+}
+.scholarwrap{
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+
+.scholarUX{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    margin-top: 40px;
+    margin-left: 40px;
+
+
+    color: #2779CC;
+}
+.scholarAlumnus{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.scholarperiod{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #505050;
+}
+
+.scholarAlumnus2{
+    position: absolute;
+    margin-top: 70px;
+}
+
+.scholarwrap2{
+    margin-top: 20px;
+    margin-left: 95px;
+}

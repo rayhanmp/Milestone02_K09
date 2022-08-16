@@ -1,0 +1,155 @@
+.company-wrapper{
+    width: 100%;
+    height:1800px;
+    background: #F7F7F7;
+}
+
+.company-title {
+    background: linear-gradient(180deg, #2A7CCE 32.29%, #004DA9 100%);
+    box-shadow: 0px 12px 29px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 146px 146px;
+    width: 100%;
+    height: 246px;
+}
+
+.company-title {
+    text-align: center;
+    padding-top: 86px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+    color: white;
+}
+.searchbar{
+    text-align: center;
+    justify-content: center;
+    margin-top: 55px;
+    display: flex;
+}
+
+.search-company{
+    position: absolute;
+    width: 928px;
+    height: 46px;
+    left: 190px;
+    top: 374px;
+    
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 88.54%, #C5C4C4 100%);
+    border-radius: 10px;
+}
+
+.search-button{
+    position:absolute;
+    left: 1073px;
+    top: 374px;
+}
+.company-button {
+    height: 46px;
+    width: 46px;
+    background: linear-gradient(180deg, #2779CC 0%, #004DA9 100%); 
+    border-style: none;
+    border-radius: 0 10px 10px 0;;
+}
+
+
+.company-cards-wrapper{
+    position:relative;
+    top: 120px;
+    left: 50px;
+}
+.company-card {
+    overflow: hidden;
+    display:grid;
+    place-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+
+
+}
+.card-logo{
+    width: 58px;
+}
+
+.card-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    margin-left: 10px;
+}
+
+.company-name{
+    position:relative;
+    left: 120px;
+    font-weight: 800px;
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.company-image{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.company-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+
+    color: #4A4A4A;
+}
+
+.card-link{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.detail-cardlink{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2779CC;
+}
+
+.userAlumnus{
+    color:#004DA9;
+    position: relative;
+    top:0px;
+    left:-20px;
+}
+
+.linkAlumnus:link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
